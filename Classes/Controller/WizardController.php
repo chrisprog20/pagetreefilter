@@ -54,6 +54,7 @@ class WizardController extends NewContentElementController
                 $this->colPos,
                 $this->sys_language,
                 $this->uid_pid,
+                $request,
             )
         )->getWizardItems();
 
